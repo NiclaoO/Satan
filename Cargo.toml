@@ -1,0 +1,12 @@
+[package]
+name = "secure_drop_core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.7", features = ["multipart"] }
+tokio = { version = "1.36", features = ["full"] }
+tower-http = { version = "0.5", features = ["limit"] }
+uuid = { version = "1.7", features = ["v4", "fast-rng"] }
+age = "0.10" 
+dotenvy = "0.15.7"

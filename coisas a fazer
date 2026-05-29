@@ -1,0 +1,5 @@
+//adicionar um isolamento de arquivo, onde cada arquivo é armazenado em um diretório separado, e o nome do diretório é gerado usando um UUID. Isso dificulta a localização e o acesso aos arquivos, mesmo que alguém obtenha acesso ao sistema de arquivos do servidor.
+//adicionar uma camada de criptografia, onde os arquivos são criptografados antes de serem armazenados no servidor. Isso garante que mesmo que alguém obtenha acesso a arquivos mais restritos, eles não poderão ler o conteúdo sem a chave de criptografia.
+//adicionar  uma interface onde as pessoas comun possam ler arquivos, tipo uma interface web onde as pessoas possam acessar os arquivos, mas sem a possibilidade de baixar, apenas ler. Isso pode ser feito usando um visualizador de arquivos baseado na web, que renderiza o conteúdo dos arquivos diretamente no navegador, sem permitir o download.
+//adicionar uma camada onde quem esta lendo não possa extrair nada do site.
+//colocar em docker e adicionar a rede tor
